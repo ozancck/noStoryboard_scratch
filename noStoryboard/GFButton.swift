@@ -8,7 +8,10 @@
 import UIKit
 
 class GFButton: UIButton {
-
+    
+    
+    
+    //this is my custom uibutton GF meaninig github follower
     override init(frame: CGRect) {
         super.init(frame: frame)
         configur()

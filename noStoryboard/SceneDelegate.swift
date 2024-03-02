@@ -29,10 +29,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         searchVC.title = "Search"
         searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
         
+        
         return UINavigationController(rootViewController: searchVC)
         
     }
-    
     func createCreateNC()-> UINavigationController {
         let createVC = CreateVC()
         createVC.title = "Search"
@@ -40,15 +40,22 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         return UINavigationController(rootViewController: createVC)
     }
-    
     func createTabbar() -> UITabBarController {
         let tabbar = UITabBarController()
-        UITabBar.appearance().tintColor = .black
-        UITabBar.appearance().backgroundColor = .gray
+        UITabBar.appearance().tintColor = .systemPink
+        //UITabBar.appearance().barTintColor = .red
+        
+        UITabBar.appearance().unselectedItemTintColor = .brown
+        UITabBar.appearance().backgroundColor = .black
         tabbar.viewControllers = [createCreateNC(), createSearchNC()]
         
         return tabbar
     }
+    
+    
+    
+    
+    
     
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

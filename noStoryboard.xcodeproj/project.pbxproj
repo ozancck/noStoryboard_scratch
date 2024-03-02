@@ -17,6 +17,7 @@
 		317E625D2B8A65A600EE059D /* noStoryboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E625C2B8A65A600EE059D /* noStoryboardUITestsLaunchTests.swift */; };
 		317E626A2B8A667C00EE059D /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E62692B8A667C00EE059D /* SearchVC.swift */; };
 		317E626C2B8A668600EE059D /* CreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E626B2B8A668600EE059D /* CreateVC.swift */; };
+		31E14C762B939FA200BC664E /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E14C752B939FA200BC664E /* GFButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		317E625C2B8A65A600EE059D /* noStoryboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noStoryboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		317E62692B8A667C00EE059D /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		317E626B2B8A668600EE059D /* CreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVC.swift; sourceTree = "<group>"; };
+		31E14C752B939FA200BC664E /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				317E62472B8A65A600EE059D /* Info.plist */,
 				317E62692B8A667C00EE059D /* SearchVC.swift */,
 				317E626B2B8A668600EE059D /* CreateVC.swift */,
+				31E14C752B939FA200BC664E /* GFButton.swift */,
 			);
 			path = noStoryboard;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				317E626A2B8A667C00EE059D /* SearchVC.swift in Sources */,
 				317E623E2B8A65A500EE059D /* ViewController.swift in Sources */,
+				31E14C762B939FA200BC664E /* GFButton.swift in Sources */,
 				317E626C2B8A668600EE059D /* CreateVC.swift in Sources */,
 				317E623A2B8A65A500EE059D /* AppDelegate.swift in Sources */,
 				317E623C2B8A65A500EE059D /* SceneDelegate.swift in Sources */,

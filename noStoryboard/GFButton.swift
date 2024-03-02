@@ -36,6 +36,7 @@ class GFButton: UIButton {
         titleLabel?.textColor    = .white
         titleLabel?.font         = UIFont.preferredFont(forTextStyle: .headline)
         translatesAutoresizingMaskIntoConstraints = false
+        //this is for programatic
     }
     
 

@@ -45,7 +45,7 @@ class SearchVC: UIViewController {
         guard usernameEntered else {
             
             //false ise calisacak olan kisim
-            print("no username")
+            presentGFAlertOnMainThread(alertTitle: "Emty Username", message: "Please Enter Username 😀", buttonTitle: "Ok")
            
             
             return

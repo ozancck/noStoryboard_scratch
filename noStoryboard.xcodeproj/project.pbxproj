@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3178DDC62BA5B2F00084956F /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3178DDC52BA5B2F00084956F /* GFTextField.swift */; };
+		3178DDC82BA5CAF00084956F /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3178DDC72BA5CAF00084956F /* FollowerListVC.swift */; };
 		317E623A2B8A65A500EE059D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E62392B8A65A500EE059D /* AppDelegate.swift */; };
 		317E623C2B8A65A500EE059D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E623B2B8A65A500EE059D /* SceneDelegate.swift */; };
 		317E623E2B8A65A500EE059D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E623D2B8A65A500EE059D /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3178DDC52BA5B2F00084956F /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		3178DDC72BA5CAF00084956F /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		317E62362B8A65A500EE059D /* noStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		317E62392B8A65A500EE059D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		317E623B2B8A65A500EE059D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				317E62692B8A667C00EE059D /* SearchVC.swift */,
 				317E626B2B8A668600EE059D /* CreateVC.swift */,
 				31E14C752B939FA200BC664E /* GFButton.swift */,
+				3178DDC52BA5B2F00084956F /* GFTextField.swift */,
+				3178DDC72BA5CAF00084956F /* FollowerListVC.swift */,
 			);
 			path = noStoryboard;
 			sourceTree = "<group>";
@@ -269,6 +275,8 @@
 				317E626C2B8A668600EE059D /* CreateVC.swift in Sources */,
 				317E623A2B8A65A500EE059D /* AppDelegate.swift in Sources */,
 				317E623C2B8A65A500EE059D /* SceneDelegate.swift in Sources */,
+				3178DDC82BA5CAF00084956F /* FollowerListVC.swift in Sources */,
+				3178DDC62BA5B2F00084956F /* GFTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

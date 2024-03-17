@@ -20,6 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         window?.rootViewController = createTabbar()
         window?.makeKeyAndVisible()
+        
+        configureNavigationBar()
     }
     
     
@@ -43,15 +45,22 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func createTabbar() -> UITabBarController {
         let tabbar = UITabBarController()
         UITabBar.appearance().tintColor = .systemPink
-        //UITabBar.appearance().barTintColor = .red
-        
         UITabBar.appearance().unselectedItemTintColor = .brown
         UITabBar.appearance().backgroundColor = .black
-        tabbar.viewControllers = [createCreateNC(), createSearchNC()]
+        
+        
+        
+        tabbar.viewControllers = [createSearchNC(),createCreateNC()]
         
         return tabbar
     }
     
+    
+    
+    //butun navigation bar elementlerinin rengini degistiriyoruz
+    func configureNavigationBar(){
+        UINavigationBar.appearance().tintColor = .systemPink
+    }
     
     
     

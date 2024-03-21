@@ -7,7 +7,15 @@
 
 import UIKit
 
-class SearchVC: UIViewController {
+class SearchVC: UIViewController, GF2ButtonAlertVCDelegate {
+    func okButtonTapped() {
+        print("ok")
+    }
+    
+    func cancelButtonTapped() {
+        print("cancel")
+    }
+    
     let logoImageView = UIImageView()
     let usernameTextField = GFTextField()
     let callToActionButton = GFButton(backgroundColor: .systemGreen, title: "Get Followers")
@@ -45,7 +53,10 @@ class SearchVC: UIViewController {
         guard usernameEntered else {
             
             //false ise calisacak olan kisim
-            presentGFAlertOnMainThread(alertTitle: "Emty Username", message: "Please Enter Username 😀", buttonTitle: "Ok")
+            //presentGFAlertOnMainThread(alertTitle: "Emty Username", message: "Please Enter Username 😀", buttonTitle: "Ok")
+            
+            present2ButtonAlert(alertTitle: "emty user name", message: "message", okButtonTitle: "ok", cancelButtonTitle: "cancel")
+
            
             
             return
